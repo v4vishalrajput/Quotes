@@ -48,7 +48,7 @@
             android:textSize="27dp" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/quoteText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="5dp"
@@ -57,12 +57,19 @@
             android:textSize="18dp" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/btnShare"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
             android:backgroundTint="@color/green"
+            android:drawableRight="@drawable/share"
+            android:drawableTint="@color/white"
+            android:gravity="left|center_vertical"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
             android:padding="10dp"
-            android:text="Share" />
+            android:text="Share"
+            android:textSize="18sp" />
 
     </LinearLayout>
 </LinearLayout>
